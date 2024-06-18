@@ -1,0 +1,68 @@
+/* EmployeePage component styles */
+.container {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.link-home {
+  margin-right: 20px;
+  color: #007bff; /* Change link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.dropdown-container {
+  flex-grow: 1; /* Grow to take up available space */
+  display: flex;
+  justify-content: center; /* Center the dropdown */
+}
+
+.dropdown {
+  width: 200px; /* Make the dropdown wider */
+  padding: 8px 12px; /* Add padding */
+  border: 1px solid #ced4da; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  background-color: #fff; /* Add background color */
+}
+
+.employee-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Change justify-content to space-between */
+}
+
+.employee-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  border: 1px solid #e0e0e0; /* Soften border color */
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+  padding-bottom: 15px; /* Adjust overall card height */
+}
+
+.employee-img {
+  width: 100%;
+  height: auto;
+}
+
+.employee-details {
+  padding: 15px; /* Increase padding */
+}
+
+.employee-name {
+  font-size: 18px;
+  margin-bottom: 8px; /* Increase margin */
+}
+
+.employee-info {
+  margin-bottom: 8px; /* Increase margin */
+}
+.Link{
+  text-decoration:none;
+}
