@@ -5,6 +5,7 @@ let dataStore = JSON.parse(localStorage.getItem("users")) || [
   { name: "Bob", team: "Team B", role: "Designer", sex: "Male", id: "2" },
   { name: "Carol", team: "Team C", role: "Manager", sex: "Female", id: "3" }
   ];
+  // above are dummy datas
   
   const saveToLocalStorage = () => {
     localStorage.setItem("users", JSON.stringify(dataStore));
